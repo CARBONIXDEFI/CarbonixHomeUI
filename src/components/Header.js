@@ -39,7 +39,7 @@ function Header() {
                             <a className="nav-link" href="https://docs.blackcollateral.com/">DOCS</a>
                         </Nav>
                         <Nav>
-                            <Nav.Link className="btn border-0 btn-grad" href="https://dev-carbonix.vercel.app/">LAUNCH APP</Nav.Link>
+                            <Nav.Link className="btn border-0 btn-grad" href="https://carbonix-carbonix.vercel.app/dashboard">LAUNCH APP</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
