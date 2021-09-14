@@ -1,0 +1,231 @@
+@media (max-width: 1199px){
+    #wrapper .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 992px){
+    .team-banner .my-4{
+        margin-top: -25px !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 991px){
+    h2{
+        font-size: 26px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    .home-banner {
+        padding-top: 30px;
+    }
+    .navbar a.nav-link:not(.btn){
+        margin-left: 0px;
+    }
+    .navbar-collapse{
+        background-color: #f2f3ff;
+        position: absolute;
+        padding: 15px 20px;
+        width: 100%;
+        z-index: 2;
+        top: 100%;
+        left: 0;
+    }
+    .navbar-nav{
+        margin-bottom: 20px;
+    }
+    .navbar a.nav-link:not(.btn){
+        margin-bottom: 8px;
+    }
+    .navbar a.nav-link:not(.btn):before{
+        height: 0;
+        width: 3px;
+        top: 0;
+        left: 0;
+        right: auto;
+    }
+    .navbar a.nav-link:hover:before, .navbar a.nav-link.active:before{
+        height: 100%;
+    }  
+    .navbar a.nav-link.active{
+        padding-left: 15px !important;
+    }
+    .app-no-barImage{
+        max-width: 560px;
+    }
+    .app-no-bar{
+        font-size: 22px;
+        margin-top: 6px;
+    }
+    .apps-area .card p{
+        min-height: 90px;
+    }
+    .body-section {
+        padding: 50px 0 40px;
+    }
+    .help-section .card{
+        min-width: 100%;
+    }
+    .team-banner .my-4{
+        margin-top: 5px !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .justify-content-end .timeframe-item{
+        padding-right: 0;
+        text-align: left;
+        padding-left: 72px;
+    }
+    .justify-content-end .timeframe-item .count{
+        left: -29px;
+        right: auto;
+    }
+    .justify-content-end .timeframe-item .count img{
+        bottom: 48px;
+        right: auto;
+        left: 46px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body{
+        font-size: 14px;
+    }
+    .app-no-barImage {
+        max-width: 400px;
+    }
+    .app-no-bar{
+        font-size: 18px;
+    }
+    .team-section:before{
+        height: 85%;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 13px;
+    }
+    .help-section:before{
+        height: 70%;
+    }
+    .regions{
+        margin-bottom: 30px;
+    }
+    .footer-content{
+        padding: 45px 0 40px;
+    }
+    .title-banner {
+        padding: 30px 0 10px;
+    }
+    .timeframe-year{
+        text-align: left;
+    }
+    .timeframe:before{
+        margin-left: 0;
+        left: 36px;
+    }
+    .timeframe-year span{
+        width: 72px;
+        height: 72px;
+        font-size: 24px;
+        line-height: 72px;
+    }
+    .timeframe-item{
+        text-align: left;
+        padding-right: 0;
+        padding-left: 60px;
+    }
+    .timeframe-item h4{
+        padding-left: 35px;
+    }   
+    .timeframe-item .count{
+        left: 12px;
+        right: auto;
+        width: 48px;
+        height: 48px;
+        font-size: 18px;
+        line-height: 48px;
+    }
+    .timeframe-item .count img {
+        bottom: 41px;
+        right: -48px;
+    }
+    .timeframe{
+        margin: 15px auto 40px;
+    }
+    .timeframe-year{
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .app-no-barImage {
+        max-width: 300px;
+    }
+    .app-no-bar{
+        font-size: 18px;
+    }
+    .apps-area .card p{
+        min-height: auto;
+    }
+    .team-section{
+        padding-top: 30px;
+    }
+    .team-section:before{
+        height: 60%;
+        bottom: auto;
+    }
+    .team-card{
+        min-width: 220px;
+    }
+    .timeframe-item h4{
+        font-size: 14px;
+    }
+    .terms-content {
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+    .header-count{
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        line-height: 42px;
+    }
+    .terms-content h2{
+        min-height: 58px;
+        padding-top: 0px;
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+    }
+    .terms-content h2 ~ h2{
+        min-height: auto;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .header-count{
+        top: 9px;
+    }
+    .btn.px-4, .btn.px-md-4{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .btn{
+        font-size: 14px;
+    }
+}
