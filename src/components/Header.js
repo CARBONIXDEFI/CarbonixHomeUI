@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Navbar, Nav} from 'react-bootstrap';
+import {Container, Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import {
     NavLink,
     Link
@@ -18,9 +18,9 @@ function Header() {
             <div className="header-top">
                 <Container>
                     <div className="d-flex align-items-center justify-content-end">
-                        <a href="https://twitter.com/BlackCollateral" target="_blank"><img src={SocialIcon1} className="d-block" alt="Social Icon" /></a>
-                        <a href="https://github.com/BLACKCOLLATERAL" target="_blank"><img src={SocialIcon2} className="d-block" alt="Social Icon" /></a>
-                        <a href="https://medium.com/@blackcollateral" target="_blank"><img src={SocialIcon3} className="d-block" alt="Social Icon" /></a>
+                        <a href="https://twitter.com/CarbonixFi" target="_blank"><img src={SocialIcon1} className="d-block" alt="Social Icon" /></a>
+                        <a href="https://github.com/CARBONIXDEFI" target="_blank"><img src={SocialIcon2} className="d-block" alt="Social Icon" /></a>
+                        <a href="https://medium.com/@carbonixfi" target="_blank"><img src={SocialIcon3} className="d-block" alt="Social Icon" /></a>
                         <a href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" target="_blank"><img src={SocialIcon4} className="d-block" alt="Social Icon" /></a>
                     </div>
                 </Container>
@@ -28,18 +28,22 @@ function Header() {
             </div>
             <Navbar collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand href="/"><img src={Logo} alt="logo" /></Navbar.Brand>
+                    <Navbar.Brand href="/"><img src={Logo} alt="logo" /> CARBONIX</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
                             <NavLink className="nav-link" exact  activeclassname="active" to="/home">HOME</NavLink>
                             <a className="nav-link" href="/home#about">ABOUT</a>
-                            <a className="nav-link" href="https://www.blackcollateral.com">BLACK COLLATERAL</a>
+                            <a className="nav-link" target="_blank" href="https://www.blackcollateral.com">BLACK COLLATERAL</a>
                             <Link className="nav-link" to="/road-map">ROADMAP</Link>
-                            <a className="nav-link" href="https://docs.blackcollateral.com/">DOCS</a>
+                            {/* <a className="nav-link" target="_blank" href="https://docs.blackcollateral.com/">DOCS</a> */}
+                            <NavDropdown title="DOCS" id="basic-nav-dropdown">
+                                <NavDropdown.Item target="_blank" href="https://docs.blackcollateral.com">BLACK</NavDropdown.Item>
+                                <NavDropdown.Item target="_blank" href="https://docs.carbonfinance.com">CARBON</NavDropdown.Item>
+                            </NavDropdown>
                         </Nav>
                         <Nav>
-                            <Nav.Link className="btn border-0 btn-grad" href="https://app.carbonix.finance/home">LAUNCH APP</Nav.Link>
+                            <Nav.Link className="btn border-0 btn-grad" target="_blank" href="https://app.carbonix.finance/home">LAUNCH APP</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

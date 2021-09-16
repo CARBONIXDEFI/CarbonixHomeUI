@@ -58,7 +58,7 @@ function RoadMap() {
                                 <div className="timeframe-item">
                                     <span className="count">
                                         <img src={Arc} alt="arc" />
-                                        Q3
+                                        Q4
                                     </span>
                                     <h4>Carbonix Go Live Staking Contracts released Carbonix (ETH & Polygon) Pilot</h4>
                                 </div>

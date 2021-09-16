@@ -20,7 +20,10 @@ export default class FooterMain extends React.Component {
                     <Container>
                         <Row>
                             <Col md={4} className="mb-5">
-                                <img src={Logo} alt="logo" className="img-fluid" />
+                                <div className="f-logo">
+                                    <img src={Logo} alt="logo" className="img-fluid" />
+                                    CARBONIX
+                                </div>
                             </Col>
                             <Col md={8}>
                                 <Row>
@@ -29,8 +32,8 @@ export default class FooterMain extends React.Component {
                                             <Col xs={6} md={4} className="mb-4">
                                                 <h5>About</h5>
                                                 <ul>
-                                                    <li><Link to="/team">Team</Link></li>
-                                                    <li><Link to="/road-map">Roadmap</Link></li>
+                                                    {/* <li><Link target="_blank" to="/team">Team</Link></li> */}
+                                                    <li><Link target="_blank" to="/road-map">Roadmap</Link></li>
                                                     <li><Link to="/">Architecture</Link></li>
                                                 </ul>
                                             </Col>
@@ -57,14 +60,14 @@ export default class FooterMain extends React.Component {
                                                     <li><Link to="/">Forum</Link></li>
                                                 </ul>
                                             </Col>
-                                            <Col xs={12} md={8} className="mb-4">
+                                            <Col xs={12} md={8} className="mb-4 text-center text-md-left">
                                                 <h5>Follow Us </h5>
-                                                <div className="footer-social flex-xl-nowrap flex-wrap mt-3 d-flex align-items-center">
-                                                    <a href="https://twitter.com/BlackCollateral" target="_blank"><img src={TwitterIcon} alt="social icon" /></a>
+                                                <div className="footer-social flex-xl-nowrap flex-wrap mt-3 d-flex justify-content-center justify-content-md-start align-items-center">
+                                                    <a href="https://twitter.com/CarbonixFi" target="_blank"><img src={TwitterIcon} alt="social icon" /></a>
                                                     {/* <a href="/"><img src={BlurIcon} alt="social icon" /></a> */}
-                                                    <a href="https://medium.com/@blackcollateral" target="_blank"><img src={WhiteIcon} alt="social icon" /></a>
+                                                    <a href="https://medium.com/@carbonixfi" target="_blank"><img src={WhiteIcon} alt="social icon" /></a>
                                                     <a href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" target="_blank"><img src={YoutubeIcon} alt="social icon" /></a>
-                                                    <a href="https://github.com/BLACKCOLLATERAL" target="_blank"><img src={GitIcon} alt="social icon" /></a>
+                                                    <a href="https://github.com/CARBONIXDEFI" target="_blank"><img src={GitIcon} alt="social icon" /></a>
                                                     {/* <a href="/"><img src={DIcon} alt="social icon" /></a> */}
                                                 </div>
                                             </Col>
@@ -85,7 +88,7 @@ export default class FooterMain extends React.Component {
 
                                         <h5>Follow Us </h5>
                                         <div className="footer-social flex-xl-nowrap flex-wrap mt-3 d-flex align-items-center">
-                                            <a href="https://twitter.com/BlackCollateral" target="_blank"><img src={TwitterIcon} alt="social icon" /></a>
+                                            <a href="https://twitter.com/CarbonixFi" target="_blank"><img src={TwitterIcon} alt="social icon" /></a>
                                             {/* <a href="/"><img src={BlurIcon} alt="social icon" /></a> */}
                                             <a href="https://medium.com/@blackcollateral" target="_blank"><img src={WhiteIcon} alt="social icon" /></a>
                                             <a href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" target="_blank"><img src={YoutubeIcon} alt="social icon" /></a>
