@@ -25,7 +25,7 @@ function HomeSections() {
                             <div>
                                 <img src={MagicalRisk} alt="MagicalRisk" className="img-fluid" />
                             </div>
-                            <Link to="/" className="btn border-0 btn-grad btn-shadow">Join Now</Link>
+                            {/* <Link to="/" className="btn border-0 btn-grad btn-shadow">Join Now</Link> */}
                         </Col>
                     </Row>
                 </Container>
@@ -42,7 +42,7 @@ function HomeSections() {
                             <div>
                                 <img src={BlackCollateralImage} alt="MagicalRisk" className="img-fluid" />
                             </div>
-                            <a target="_blank" href="https://github.com/BLACKCOLLATERAL/Whitepaper" className="btn border-0 px-4 mt-4 btn-grad btn-shadow">DOWNLOAD WHITE PAPER</a>
+                            <a target="_blank" href="https://github.com/CARBONIXFI/Whitepaper" className="btn border-0 px-4 mt-4 btn-grad btn-shadow">DOWNLOAD WHITE PAPER</a>
                         </Col>
                     </Row>
                 </Container>

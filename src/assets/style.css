@@ -157,7 +157,19 @@ a{
 .header-page{
     background-color: #fff;
 }
-
+.navbar-brand, .f-logo{
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+    display: inline-flex;
+    color: #f5584b !important;
+}
+.navbar-brand img, .f-logo img{
+    width: 52px;
+    height: 52px;
+    margin-right: 12px;
+}
 .navbar{
     padding: 18px 0;
 }
@@ -185,6 +197,12 @@ a{
 .navbar a.nav-link:hover:before, .navbar a.nav-link.active:before{
     width: 100%;
 }   
+.dropdown-item.active, .dropdown-item:active{
+    background-color: #f5584b;
+}
+.dropdown-item{
+    padding: .25rem 0.9rem;
+}
 
 .navbar-light .navbar-toggler{
     border: none;

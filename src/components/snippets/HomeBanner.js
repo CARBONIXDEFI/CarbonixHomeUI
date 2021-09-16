@@ -16,8 +16,8 @@ function HomeBanner() {
                         <h2 className="text-uppercase">Collateral Banking Redefined</h2>
                         <h3>A new kind of "Self-Paying" DEFI Lending Protocol with yield based risk derivatives</h3>
                         <h5>POWERED BY BLACK COLLATERAL</h5>
-                        <a href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" className="btn m-1 px-4 border-0  btn-grad">ACCESS Explainer Videos</a>
-                        <a href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" className="btn m-1 px-4 border-0 btn-grad">CERTIK AUDIT REPORT</a>
+                        <a href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" target="_blank" className="btn m-1 px-4 border-0  btn-grad">ACCESS Explainer Videos</a>
+                        <a href="https://github.com/CARBONIXFI/CertikAuditReport" target="_blank" className="btn m-1 px-4 border-0 btn-grad">CERTIK AUDIT REPORT</a>
                     </Col>
                 </Row>
             </Container>

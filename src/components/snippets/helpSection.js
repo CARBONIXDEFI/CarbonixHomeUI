@@ -13,7 +13,7 @@ function AppCards() {
                 <h2 className="text-center">Need help with something?</h2>
                 <Row className="justify-content-md-between justify-content-center">
                     <Col className="mb-4 pb-3 col-10 col-md-4 col-lg-auto">
-                        <a target="_blank" href="https://t.me/blackcollateral">
+                        <a target="_blank" href="https://t.me/carbonixfi">
                             <Card className="border-0 card-shadow">
                                 <Card.Body className="d-flex align-items-center">
                                     <img src={HelpIcon} alt="card icon" />
@@ -33,12 +33,14 @@ function AppCards() {
                         </a>
                     </Col>
                     <Col className="mb-4 pb-3 col-10 col-md-4 col-lg-auto">
-                        <Card className="border-0 card-shadow">
-                            <Card.Body className="d-flex align-items-center">
-                                <img src={ChatIcon} alt="card icon" />
-                                <h4>Chat with us</h4>
-                            </Card.Body>
-                        </Card>
+                        <a target="_blank" href="https://t.me/carbonixfi">
+                            <Card className="border-0 card-shadow">
+                                <Card.Body className="d-flex align-items-center">
+                                    <img src={ChatIcon} alt="card icon" />
+                                    <h4>Chat with us</h4>
+                                </Card.Body>
+                            </Card>
+                        </a>
                     </Col>
                     <Col sm={12} className="d-none">
                         <Card className="border-0 mw-100 card-shadow">

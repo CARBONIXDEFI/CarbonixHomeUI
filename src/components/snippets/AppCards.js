@@ -42,108 +42,108 @@ function AppCards() {
                     <Col md={4} sm={6} xs={10} className="mb-5">
                         <Card className="border-0 card-shadow">
                             <div className="card-social justify-content-between d-flex align-items-center">
-                                <a href="./"><img src={TwitterIcon} alt="social icon" /></a>
+                                <a href="https://twitter.com/CarbonixFi" target="_blank"><img src={TwitterIcon} alt="social icon" /></a>
                                 {/* <a href="./"><img src={BlurIcon} alt="social icon" /></a> */}
-                                <a href="./"><img src={WhiteIcon} alt="social icon" /></a>
-                                <a href="./"><img src={YoutubeIcon} alt="social icon" /></a>
-                                <a href="./"><img src={GitIcon} alt="social icon" /></a>
+                                <a href="https://medium.com/@carbonixfi" target="_blank"><img src={WhiteIcon} alt="social icon" /></a>
+                                <a href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" target="_blank"><img src={YoutubeIcon} alt="social icon" /></a>
+                                <a href="https://github.com/CARBONIXDEFI" target="_blank"><img src={GitIcon} alt="social icon" /></a>
                                 {/* <a href="./"><img src={DIcon} alt="social icon" /></a> */}
                             </div>
                             <Card.Body>
                                 <img src={CardImage1} alt="card anim" className="img-fluid" />
                                 <h4>Capital <br />Efficient</h4>
                                 <p>Get instant access to cbUSD while your deposit earns interest in the background</p>
-                                <Link to="/" className="btn border-0 btn-grad btn-shadow">Learn More</Link>
+                                <a target="_blank" href="https://docs.carbonfinance.com" className="btn border-0 btn-grad btn-shadow">Learn More</a>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col md={4} sm={6} xs={10} className="mb-5">
                         <Card className="border-0 card-shadow">
                             <div className="card-social justify-content-between d-flex align-items-center">
-                                <a href="./"><img src={TwitterIcon} alt="social icon" /></a>
+                                <a href="https://twitter.com/CarbonixFi" target="_blank"><img src={TwitterIcon} alt="social icon" /></a>
                                 {/* <a href="./"><img src={BlurIcon} alt="social icon" /></a> */}
-                                <a href="./"><img src={WhiteIcon} alt="social icon" /></a>
-                                <a href="./"><img src={YoutubeIcon} alt="social icon" /></a>
-                                <a href="./"><img src={GitIcon} alt="social icon" /></a>
+                                <a href="https://medium.com/@carbonixfi" target="_blank"><img src={WhiteIcon} alt="social icon" /></a>
+                                <a href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" target="_blank"><img src={YoutubeIcon} alt="social icon" /></a>
+                                <a href="https://github.com/CARBONIXDEFI" target="_blank"><img src={GitIcon} alt="social icon" /></a>
                                 {/* <a href="./"><img src={DIcon} alt="social icon" /></a> */}
                             </div>
                             <Card.Body>
                                 <img src={CardImage2} alt="card anim" className="img-fluid" />
                                 <h4>Self-Paying <br />Debt Balance</h4>
                                 <p>Over time your debt is paid off completely automatically</p>
-                                <Link to="/" className="btn border-0 btn-grad btn-shadow">Learn More</Link>
+                                <a target="_blank" href="https://docs.carbonfinance.com" className="btn border-0 btn-grad btn-shadow">Learn More</a>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col md={4} sm={6} xs={10} className="mb-5">
                         <Card className="border-0 card-shadow">
                             <div className="card-social justify-content-between d-flex align-items-center">
-                                <a href="./"><img src={TwitterIcon} alt="social icon" /></a>
+                                <a href="https://twitter.com/CarbonixFi" target="_blank"><img src={TwitterIcon} alt="social icon" /></a>
                                 {/* <a href="./"><img src={BlurIcon} alt="social icon" /></a> */}
-                                <a href="./"><img src={WhiteIcon} alt="social icon" /></a>
-                                <a href="./"><img src={YoutubeIcon} alt="social icon" /></a>
-                                <a href="./"><img src={GitIcon} alt="social icon" /></a>
+                                <a href="https://medium.com/@carbonixfi" target="_blank"><img src={WhiteIcon} alt="social icon" /></a>
+                                <a href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" target="_blank"><img src={YoutubeIcon} alt="social icon" /></a>
+                                <a href="https://github.com/CARBONIXDEFI" target="_blank"><img src={GitIcon} alt="social icon" /></a>
                                 {/* <a href="./"><img src={DIcon} alt="social icon" /></a> */}
                             </div>
                             <Card.Body>
                                 <img src={CardImage3} alt="card anim" className="img-fluid" />
                                 <h4>SMART Risk <br />Mitigation</h4>
                                 <p>Minimize the DEFI Market risk using debt based yield derivatives</p>
-                                <Link to="/" className="btn border-0 btn-grad btn-shadow">Learn More</Link>
+                                <a target="_blank" href="https://docs.carbonfinance.com" className="btn border-0 btn-grad btn-shadow">Learn More</a>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col md={4} sm={6} xs={10} className="mb-5">
                         <Card className="border-0 card-shadow">
                             <div className="card-social justify-content-between d-flex align-items-center">
-                                <a href="./"><img src={TwitterIcon} alt="social icon" /></a>
+                                <a href="https://twitter.com/CarbonixFi" target="_blank"><img src={TwitterIcon} alt="social icon" /></a>
                                 {/* <a href="./"><img src={BlurIcon} alt="social icon" /></a> */}
-                                <a href="./"><img src={WhiteIcon} alt="social icon" /></a>
-                                <a href="./"><img src={YoutubeIcon} alt="social icon" /></a>
-                                <a href="./"><img src={GitIcon} alt="social icon" /></a>
+                                <a href="https://medium.com/@carbonixfi" target="_blank"><img src={WhiteIcon} alt="social icon" /></a>
+                                <a href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" target="_blank"><img src={YoutubeIcon} alt="social icon" /></a>
+                                <a href="https://github.com/CARBONIXDEFI" target="_blank"><img src={GitIcon} alt="social icon" /></a>
                                 {/* <a href="./"><img src={DIcon} alt="social icon" /></a> */}
                             </div>
                             <Card.Body>
                                 <img src={CardImage4} alt="card anim" className="img-fluid" />
                                 <h4>Competitive <br />Yield</h4>
                                 <p>Choose from a growing number of high yield strategies to repay your debt</p>
-                                <Link to="/" className="btn border-0 btn-grad btn-shadow">Learn More</Link>
+                                <a target="_blank" href="https://docs.carbonfinance.com" className="btn border-0 btn-grad btn-shadow">Learn More</a>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col md={4} sm={6} xs={10} className="mb-5">
                         <Card className="border-0 card-shadow">
                             <div className="card-social justify-content-between d-flex align-items-center">
-                                <a href="./"><img src={TwitterIcon} alt="social icon" /></a>
+                                <a href="https://twitter.com/CarbonixFi" target="_blank"><img src={TwitterIcon} alt="social icon" /></a>
                                 {/* <a href="./"><img src={BlurIcon} alt="social icon" /></a> */}
-                                <a href="./"><img src={WhiteIcon} alt="social icon" /></a>
-                                <a href="./"><img src={YoutubeIcon} alt="social icon" /></a>
-                                <a href="./"><img src={GitIcon} alt="social icon" /></a>
+                                <a href="https://medium.com/@carbonixfi" target="_blank"><img src={WhiteIcon} alt="social icon" /></a>
+                                <a href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" target="_blank"><img src={YoutubeIcon} alt="social icon" /></a>
+                                <a href="https://github.com/CARBONIXDEFI" target="_blank"><img src={GitIcon} alt="social icon" /></a>
                                 {/* <a href="./"><img src={DIcon} alt="social icon" /></a> */}
                             </div>
                             <Card.Body>
                                 <img src={CardImage5} alt="card anim" className="img-fluid" />
                                 <h4>No Liquidation <br />Risk</h4>
                                 <p>No matter what happens we'll never liquidate your deposit and you'll keep full access</p>
-                                <Link to="/" className="btn border-0 btn-grad btn-shadow">Learn More</Link>
+                                <a target="_blank" href="https://docs.carbonfinance.com" className="btn border-0 btn-grad btn-shadow">Learn More</a>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col md={4} sm={6} xs={10} className="mb-5">
                         <Card className="border-0 card-shadow">
                             <div className="card-social justify-content-between d-flex align-items-center">
-                                <a href="./"><img src={TwitterIcon} alt="social icon" /></a>
+                                <a href="https://twitter.com/CarbonixFi" target="_blank"><img src={TwitterIcon} alt="social icon" /></a>
                                 {/* <a href="./"><img src={BlurIcon} alt="social icon" /></a> */}
-                                <a href="./"><img src={WhiteIcon} alt="social icon" /></a>
-                                <a href="./"><img src={YoutubeIcon} alt="social icon" /></a>
-                                <a href="./"><img src={GitIcon} alt="social icon" /></a>
+                                <a href="https://medium.com/@carbonixfi" target="_blank"><img src={WhiteIcon} alt="social icon" /></a>
+                                <a href="https://www.youtube.com/channel/UCnXEtSWkUZ8CO4qytlWCtKQ" target="_blank"><img src={YoutubeIcon} alt="social icon" /></a>
+                                <a href="https://github.com/CARBONIXDEFI" target="_blank"><img src={GitIcon} alt="social icon" /></a>
                                 {/* <a href="./"><img src={DIcon} alt="social icon" /></a> */}
                             </div>
                             <Card.Body>
                                 <img src={CardImage6} alt="card anim" className="img-fluid" />
                                 <h4>Low <br />Maintenance</h4>
                                 <p>Once you've withdrawn your cbUSD you can simply let your loan repay itself</p>
-                                <Link to="/" className="btn border-0 btn-grad btn-shadow">Learn More</Link>
+                                <a target="_blank" href="https://docs.carbonfinance.com" className="btn border-0 btn-grad btn-shadow">Learn More</a>
                             </Card.Body>
                         </Card>
                     </Col>
