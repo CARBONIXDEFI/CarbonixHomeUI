@@ -4,7 +4,7 @@ import {
     Link
   } from "react-router-dom";
 
-import Logo from '../assets/images/logo.png';
+import Logo from '../assets/images/logo2.png';
 import TwitterIcon from '../assets/images/twitter-lg.png';
 // import BlurIcon from '../assets/images/blue-icon-lg.png';
 import WhiteIcon from '../assets/images/white-icon-lg.png';

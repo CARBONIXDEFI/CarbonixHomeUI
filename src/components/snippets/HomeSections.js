@@ -42,7 +42,8 @@ function HomeSections() {
                             <div>
                                 <img src={BlackCollateralImage} alt="MagicalRisk" className="img-fluid" />
                             </div>
-                            <a target="_blank" href="https://github.com/CARBONIXFI/Whitepaper" className="btn border-0 px-4 mt-4 btn-grad btn-shadow">DOWNLOAD WHITE PAPER</a>
+                            <a target="_blank" href="https://github.com/CARBONIXFI/Whitepaper" className="btn m-1 border-0 px-4 mt-4 btn-grad btn-shadow">DOWNLOAD WHITE PAPER</a>
+                            <a target="_blank" href="https://blackcollateral.com/" className="btn border-0 m-1 px-4 mt-4 btn-grad btn-shadow">VIEW WEBSITE</a>
                         </Col>
                     </Row>
                 </Container>
