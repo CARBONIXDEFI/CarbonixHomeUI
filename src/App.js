@@ -1,7 +1,6 @@
 import { Provider } from 'react-redux';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
-import Auth from './layout/Auth';
-import Main from './layout/Main';
+
 import Page from './components/Layout';
 import routes from './routes';
 import store from './store';
@@ -15,22 +14,8 @@ function App() {
 					<Switch>
 						{routes.map(route => {
 							switch (route.layout) {
-								case 'main':
-									return (
-										<Route exact path={route.path}>
-											<Main>
-												<route.component />
-											</Main>
-										</Route>
-									);
-								case 'auth':
-									return (
-										<Route exact path={route.path}>
-											<Auth>
-												<route.component />
-											</Auth>
-										</Route>
-									);
+								
+								
 								case 'page':
 									return (
 										<Route exact path={route.path}>

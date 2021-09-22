@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    max-width: 1120px;
+    max-width: 1320px;
     width: 100%;
 }
 
@@ -81,12 +81,13 @@ h6{
     font-size: 16px;
     font-weight: 400;
     /* min-height: 44px; */
-    min-width: 175px;
+    min-width: 205px;
     /* line-height: 45px; */
     border-radius: 11px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     box-shadow: none !important;
+    margin-right: 10px;
 }
 
 /* .btn.py-0{
