@@ -45,7 +45,7 @@ export default class FooterMain extends React.Component {
                                                 </ul>
                                             </Col>
                                             <Col xs={6} md={4} className="mb-4">
-                                                <h5>Documentation</h5>
+                                                <h5>Docs</h5>
                                                 <ul>
                                                     <li><a href="https://docs.blackcollateral.com" target="_blank">Black Collateral</a></li>
                                                     <li><a href="https://docs.carbonfinance.com" target="_blank">Carbonix </a></li>
