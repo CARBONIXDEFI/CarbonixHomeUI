@@ -45,6 +45,13 @@ export default class FooterMain extends React.Component {
                                                 </ul>
                                             </Col>
                                             <Col xs={6} md={4} className="mb-4">
+                                                <h5>Documentation</h5>
+                                                <ul>
+                                                    <li><a href="https://docs.blackcollateral.com" target="_blank">Black Collateral</a></li>
+                                                    <li><a href="https://docs.carbonfinance.com" target="_blank">Carbonix </a></li>
+                                                </ul>
+                                            </Col>
+                                            <Col xs={6} md={4} className="mb-4">
                                                 <h5>Garden</h5>
                                                 <ul>
                                                     <li><Link to="/">Staking Tranche</Link></li>
@@ -60,7 +67,7 @@ export default class FooterMain extends React.Component {
                                                     <li><Link to="/">Forum</Link></li>
                                                 </ul>
                                             </Col>
-                                            <Col xs={12} md={8} className="mb-4 text-center text-md-left">
+                                            <Col xs={6} md={4} className="mb-4 text-center text-md-left">
                                                 <h5>Follow Us </h5>
                                                 <div className="footer-social flex-xl-nowrap flex-wrap mt-3 d-flex justify-content-center justify-content-md-start align-items-center">
                                                     <a href="https://twitter.com/CarbonixFi" target="_blank"><img src={TwitterIcon} alt="social icon" /></a>
