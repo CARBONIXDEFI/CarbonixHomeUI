@@ -43,7 +43,7 @@ function Header() {
                             </NavDropdown> */}
                         </Nav>
                         <Nav>
-                            <Nav.Link className="btn border-5 btn-grad"  target="_blank" href="https://app-beta-carbonix.vercel.app/dashboard" >PRE-PROD</Nav.Link>
+                            <Nav.Link className="btn border-5 btn-grad"  target="_blank" href="https://app.carbonix.finance/dashboard" >PRE-PROD</Nav.Link>
                             
                         </Nav>
                         <Nav>                
