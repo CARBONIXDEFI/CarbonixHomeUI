@@ -47,7 +47,7 @@ function Header() {
                             
                         </Nav>
                         <Nav>                
-                            <Nav.Link className="btn border-5 btn-grad" target="_blank" href="https://app.carbonix.finance/home">LAUNCH APP</Nav.Link>
+                            <Nav.Link className="btn border-5 btn-grad" target="_blank" href="">LAUNCH APP</Nav.Link>
                         </Nav>
                         
                     </Navbar.Collapse>
