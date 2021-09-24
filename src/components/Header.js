@@ -37,10 +37,10 @@ function Header() {
                             <a className="nav-link" target="_blank" href="https://www.blackcollateral.com">BLACK COLLATERAL</a>
                             <Link className="nav-link" to="/road-map">ROADMAP</Link>
                             {/* <a className="nav-link" target="_blank" href="https://docs.blackcollateral.com/">DOCS</a> */}
-                            <NavDropdown title="DOCS" id="basic-nav-dropdown">
+                            {/* <NavDropdown title="DOCS" id="basic-nav-dropdown">
                                 <NavDropdown.Item target="_blank" href="https://docs.blackcollateral.com">BLACK</NavDropdown.Item>
                                 <NavDropdown.Item target="_blank" href="https://docs.carbonfinance.com">CARBON</NavDropdown.Item>
-                            </NavDropdown>
+                            </NavDropdown> */}
                         </Nav>
                         <Nav>
                             <Nav.Link className="btn border-5 btn-grad"  target="_blank" href="https://app-beta-carbonix.vercel.app/dashboard" >PRE-PROD</Nav.Link>

@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    max-width: 1320px;
+    max-width: 1220px;
     width: 100%;
 }
 
@@ -176,7 +176,7 @@ a{
 .navbar a.nav-link:not(.btn){
     padding: 5px 0 !important;
     position: relative;
-    margin-left: 30px;
+    margin-left: 40px;
     font-weight: 500;
 }
 .navbar a.nav-link:not(.btn):before{
